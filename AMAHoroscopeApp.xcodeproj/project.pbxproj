@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A887909027FD9641002CEB64 /* AMAHoroscopeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887908F27FD9641002CEB64 /* AMAHoroscopeAppApp.swift */; };
-		A887909227FD9641002CEB64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887909127FD9641002CEB64 /* ContentView.swift */; };
+		A887909027FD9641002CEB64 /* AMAHoroscopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887908F27FD9641002CEB64 /* AMAHoroscopeApp.swift */; };
 		A887909427FD9642002CEB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A887909327FD9642002CEB64 /* Assets.xcassets */; };
 		A887909727FD9642002CEB64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A887909627FD9642002CEB64 /* Preview Assets.xcassets */; };
+		A887909E27FD9676002CEB64 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887909D27FD9676002CEB64 /* DescriptionView.swift */; };
+		A88790A027FD9689002CEB64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887909F27FD9689002CEB64 /* ContentView.swift */; };
+		A88790A227FD968F002CEB64 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88790A127FD968F002CEB64 /* BottomSheet.swift */; };
+		A88790A427FD9694002CEB64 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88790A327FD9694002CEB64 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A887908C27FD9641002CEB64 /* AMAHoroscopeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMAHoroscopeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A887908F27FD9641002CEB64 /* AMAHoroscopeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMAHoroscopeAppApp.swift; sourceTree = "<group>"; };
-		A887909127FD9641002CEB64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A887908F27FD9641002CEB64 /* AMAHoroscopeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMAHoroscopeApp.swift; sourceTree = "<group>"; };
 		A887909327FD9642002CEB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A887909627FD9642002CEB64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A887909D27FD9676002CEB64 /* DescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		A887909F27FD9689002CEB64 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A88790A127FD968F002CEB64 /* BottomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		A88790A327FD9694002CEB64 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		A887908E27FD9641002CEB64 /* AMAHoroscopeApp */ = {
 			isa = PBXGroup;
 			children = (
-				A887908F27FD9641002CEB64 /* AMAHoroscopeAppApp.swift */,
-				A887909127FD9641002CEB64 /* ContentView.swift */,
+				A887908F27FD9641002CEB64 /* AMAHoroscopeApp.swift */,
+				A887909D27FD9676002CEB64 /* DescriptionView.swift */,
+				A887909F27FD9689002CEB64 /* ContentView.swift */,
+				A88790A127FD968F002CEB64 /* BottomSheet.swift */,
+				A88790A327FD9694002CEB64 /* Network.swift */,
 				A887909327FD9642002CEB64 /* Assets.xcassets */,
 				A887909527FD9642002CEB64 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A887909227FD9641002CEB64 /* ContentView.swift in Sources */,
-				A887909027FD9641002CEB64 /* AMAHoroscopeAppApp.swift in Sources */,
+				A88790A427FD9694002CEB64 /* Network.swift in Sources */,
+				A887909E27FD9676002CEB64 /* DescriptionView.swift in Sources */,
+				A887909027FD9641002CEB64 /* AMAHoroscopeApp.swift in Sources */,
+				A88790A227FD968F002CEB64 /* BottomSheet.swift in Sources */,
+				A88790A027FD9689002CEB64 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

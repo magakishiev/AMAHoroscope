@@ -1,5 +1,5 @@
 //
-//  AMAHoroscopeAppApp.swift
+//  AMAHoroscopeApp.swift
 //  AMAHoroscopeApp
 //
 //  Created by Muhamed Agakishiev on 06/04/22.
